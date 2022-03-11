@@ -22,6 +22,7 @@ public class Invoice {
 	@JoinColumn(name="vendorId", columnDefinition="int")
 	private Vendor vendor; //FK
 	
+	//Default Constructor
 	public Invoice() {}
 
 	public int getId() {
